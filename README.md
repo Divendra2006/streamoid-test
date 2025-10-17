@@ -92,13 +92,7 @@ GET /products/search?minPrice=500&maxPrice=2000
 - **DELETE** `/products/clear`
 - Removes all products from the database (useful for development/testing)
 - Returns the number of products deleted
-
-**Response Example:**
-```json
-{
-  "message": "Deleted 20 products from database"
-}
-```
+  
 
 ## Testing
 
