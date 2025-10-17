@@ -90,7 +90,7 @@ GET /products/search?minPrice=500&maxPrice=2000
 
 ## Testing
 
-A sample CSV file `sample_products.csv` is included for testing the upload functionality.
+A sample CSV file `products.csv` is included for testing the upload functionality.
 
 ## Database
 
