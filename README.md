@@ -88,6 +88,18 @@ GET /products/search?color=Blue
 GET /products/search?minPrice=500&maxPrice=2000
 ```
 
+### 4. Clear All Products
+- **DELETE** `/products/clear`
+- Removes all products from the database (useful for development/testing)
+- Returns the number of products deleted
+
+**Response Example:**
+```json
+{
+  "message": "Deleted 20 products from database"
+}
+```
+
 ## Testing
 
 A sample CSV file `products.csv` is included for testing the upload functionality.
