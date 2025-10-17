@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+products.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+._*
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment variables
+.env
+
+# Test CSV files (keep products.csv)
+test_*.csv
+*_test.csv
